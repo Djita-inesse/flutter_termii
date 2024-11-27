@@ -67,8 +67,7 @@ class _HomePageState extends State<HomePage> {
                   child: TextButton(
                     onPressed: _submit,
                     style: TextButton.styleFrom(
-                      backgroundColor: Colors.blue,
-                      primary: Colors.white,
+                      foregroundColor: Colors.white, backgroundColor: Colors.blue,
                     ),
                     child: const Text('Submit'),
                   ),
